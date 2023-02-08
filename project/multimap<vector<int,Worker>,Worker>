@@ -91,7 +91,8 @@ void showWorkerByGroup(multimap<int, Worker>&m)
 	cout << "-----------------------------------------" << endl;
 }
 int main()
-{	//1、创建员工
+{	srand((unsigned int )time(NULL));
+	//1、创建员工
 	vector<Worker>vWorker;
 	createWorker(vWorker);
 	//2、员工分组
